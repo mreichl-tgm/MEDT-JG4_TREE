@@ -1,0 +1,21 @@
+{
+  "name": "MEDT-JG4-TREE",
+  "homepage": "https://github.com/mreichl-tgm/MEDT-JG4_TREE",
+  "authors": [
+    "Markus Reichl <re1@a1.net>"
+  ],
+  "description": "Medientechnik - Jahrgang 4 - Trenner",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.4"
+  }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>4AHITM - mreichl</title>
+    <!-- Bootstrap Style via CDN -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="content container">
+    <!-- Bootstrap 4 Navbar -->
+    <nav class="navbar navbar-light bg-faded">
+        <a class="navbar-brand" href="index.html"><img src="imgs/tgm_logo.png" alt="tgm-logo"></a>
+        <button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+            &#9776
+        </button>
+        <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+            <div class="m-t-3 hidden-sm-up"></div>
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="weather.html">Wetter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="guestbook.php">Gästebuch</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="randomuser.php">Randomuser</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="seminars.php">Seminare</a>
+                </li>
+                <li class="nav-item pull-md-right">
+                    <a class="nav-link" href="imprint.html">Impressum</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="m-y-2">
+        <h2>Aufgaben von Markus Reichl 4AHITM</h2>
+        <h4 class="text-muted">Schuljahr 16/17</h4>
+    </header>
+    <!-- Divider -->
+    <hr class="m-b-2">
+    <!-- Card Container -->
+    <main class="container-fluid text-xs-center">
+        <!-- Map -->
+        <div class="col-xs-6 col-lg-3 p-x-1">
+            <div class="card">
+                <img class="card-img-top p-x-3 p-t-2" src="imgs/map.svg" alt="Card image cap">
+                <div class="card-block">
+                    <h5 class="card-title">Google Maps</h5>
+                    <a href="map.html" class="btn btn-primary">Karten</a>
+                </div>
+            </div>
+        </div>
+        <!-- Wetter -->
+        <div class="col-xs-6 col-lg-3 p-x-1">
+            <div class="card">
+                <img class="card-img-top p-x-3 p-t-2" src="imgs/cloud.svg" alt="Card image cap">
+                <div class="card-block">
+                    <h5 class="card-title">Wetter Service</h5>
+                    <a href="weather.html" class="btn btn-primary">Wetter</a>
+                </div>
+            </div>
+        </div>
+        <!-- Gästebuch -->
+        <div class="col-xs-6 col-lg-3 p-x-1">
+            <div class="card">
+                <img class="card-img-top p-x-3 p-t-2" src="imgs/bus.svg" alt="Card image cap">
+                <div class="card-block">
+                    <h5 class="card-title">Gästebuch</h5>
+                    <a href="guestbook.html" class="btn btn-primary">Gästebuch</a>
+                </div>
+            </div>
+        </div>
+        <!-- Randomuser -->
+        <div class="col-xs-6 col-lg-3 p-x-1">
+            <div class="card">
+                <img class="card-img-top p-x-3 p-t-2" src="imgs/man.svg" alt="Card image cap">
+                <div class="card-block">
+                    <h5 class="card-title">Zufälliger Benutzer</h5>
+                    <a href="randomuser.php" class="btn btn-primary">Randomuser</a>
+                </div>
+            </div>
+        </div>
+        <!-- Impressum - Currently Disabled!
+        <div class="col-xs-6 col-lg-3 p-x-1">
+            <div class="card">
+                <div class="card-block">
+                    <h5 class="card-title">Impressum nach ECG</h5>
+                    <a href="imprint.html" class="btn btn-primary">Impressum</a>
+                </div>
+            </div>
+        </div>
+        -->
+    </main>
+</div>
+<!-- Footer -->
+<footer class="container footer bg-faded text-justify text-xs-center">
+    <small>Markus Reichl Wexstraße 19-21 1200 Wien mreichl@student.tgm.ac.at</small>
+</footer>
+<!-- JQuery -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Tether -->
+<script src="bower_components/tether/dist/js/tether.min.js"></script>
+<!-- Bootstrap -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
